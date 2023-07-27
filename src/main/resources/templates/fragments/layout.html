@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8">
+    <!-- config.html -->
+    <div th:replace="~{fragments/config :: configFragment}"></div>
+    <title></title>
+</head>
+<!-- header.html -->
+<header th:replace="~{fragments/header :: headerFragment}"></header>
+
+<!-- 공통적이지 않은 부분 -->
+<div layout:fragment="content"></div>
+
+<!-- footer.html -->
+<footer th:replace="~{fragments/footer :: footerFragment}"></footer>
+</html>
