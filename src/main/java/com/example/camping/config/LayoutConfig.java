@@ -1,4 +1,4 @@
-package com.camping.site.config;
+package com.example.camping.config;
 
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.context.annotation.Bean;
