@@ -1,4 +1,4 @@
 package com.example.camping.service;
 
-public interface UserService {
+public interface MemberService {
 }
